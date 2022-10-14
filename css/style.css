@@ -14,9 +14,22 @@
     color: white;
     transform: scale(1);
     transition: transform 300ms;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 #buttonTemp:hover {
     cursor: pointer;
     transform: scale(1.2);
     transition: transform 300ms;
+}
+
+#villeInput {
+    padding-left: 25px;
+    background-color: #fff;
+    border: 1px solid #0083FF;
+    border-radius: 16px;
+}
+
+#villeLabel {
+    font-family: 'Roboto', sans-serif;
 }
