@@ -11,7 +11,7 @@ $(document).ready(function() {
                     $("#resultat").html("Il fait " + Math.round(res.main.temp) + "° à " + ville.charAt(0).toUpperCase() + ville.slice(1).toLowerCase());
                 },
                 error: function (res) {
-                    $("#resultat").html("Ville non trouvé");
+                    $("#resultat").html("Ville non trouvée");
                 }
             });
         }
