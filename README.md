@@ -1,5 +1,5 @@
 # pimpmymeteo
-Le projet est un site web qui a pour objectif de donner la température d'une ville choisie.
+Le projet est un site web qui a pour objectif de donner la température en degrés celsius d'une ville choisie.
 Le projet est réaliser par : 
 - CORION Gauthier
 - CZARKOWSKI Matthieu
