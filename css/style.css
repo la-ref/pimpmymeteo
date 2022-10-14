@@ -8,6 +8,7 @@
 body{
     zoom: 180%;
     background-color: #F1E1FF;
+    display: block;
 }
 #global {
     display: flex;
@@ -26,7 +27,7 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     margin-top: 20px;
-    height: 25px;
+    height: 25px; 
     box-shadow: 1px 1px 1px lightgray;
 }
 #buttonTemp:hover {
@@ -60,7 +61,8 @@ body{
 #section {
     display:block;
     background-color: #fff;
-    width: 200px;
+    max-width: 200px;
+    margin: 10px;
     border-radius: 16px;
     padding: 25px;
     box-shadow: 2px 2px lightgray;
