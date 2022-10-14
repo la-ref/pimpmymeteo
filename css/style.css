@@ -1,0 +1,13 @@
+#buttonTemp {
+    font-size: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 16px;
+    border: 1px solid #0083FF;
+    transform: scale(0.0);
+    transition: transform 300ms;
+}
+#buttonTemp:hover {
+    transform: scale(0.2);
+    transition: transform 300ms;
+}
