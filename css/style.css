@@ -1,10 +1,19 @@
 * {
     margin:none;
     padding: none;
+    border:none;
 
 }
 @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+body{
+    zoom: 180%;
+    background-color: #F1E1FF;
+}
+#global {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #buttonTemp {
     font-size: 16px;
     padding-left: 25px;
@@ -16,20 +25,42 @@
     transition: transform 300ms;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    margin-top: 20px;
+    height: 25px;
+    box-shadow: 1px 1px 1px lightgray;
 }
 #buttonTemp:hover {
     cursor: pointer;
-    transform: scale(1.2);
+    transform: scale(1.05);
     transition: transform 300ms;
 }
 
 #villeInput {
-    padding-left: 25px;
+    margin-right: -25px;
     background-color: #fff;
     border: 1px solid #0083FF;
     border-radius: 16px;
+    height: 25px;
+    font-size: 16px;
 }
 
 #villeLabel {
     font-family: 'Roboto', sans-serif;
+}
+
+#resultat {
+    display:block;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin-top: 6px
+}
+
+#section {
+    display:block;
+    background-color: #fff;
+    width: 200px;
+    border-radius: 16px;
+    padding: 25px;
+    box-shadow: 2px 2px lightgray;
 }
